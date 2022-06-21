@@ -1,0 +1,521 @@
+{
+  "profile": {
+    "firstname": "Seraj",
+    "lastname": "Vahdati",
+    "propic": "profilePic.jpg",
+    "summary": "I'm a passionate software developer with experience across the stack and always keen to try all the shiny new little things the web has to offer. Service workers, composite workers, and everything that works mostly behind a flag. I loves 60fps web interfaces, frontend automation, and offline-first web apps. My expertise includes Javascript, HTML, and CSS. I'm excited to leverage the latest technologies to build powerful and performant applications.\n\nThe most recent applications I've worked on utilize frameworks such as React with Redux, and Meteor with React to create modular and performant single-page applications.\n\nTechnical Skills\nStrong: JavaScript, React, Vue, Redux, Meteor, Express, HTML/CSS, Git, Linux.\nExperienced: C++, SQL, AngularJS, Backbone.js, Docker",
+    "bio": "Senior Front End Engineer",
+    "username": "seraj"
+  },
+  "works": [
+    {
+      "company": "Omid Analyzer",
+      "title": "Senior Front End Engineer",
+      "location": "Tehran, Iran",
+      "time_start": "2020-03-01",
+      "time_end": null,
+      "present": 1,
+      "description": "- Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.\n- implement UI KIT using typescript, styled-component, and reactjs.\n- improve the culture of Git Flow, Component structure, and clean code strategy.\n- Redesigning the product using sketch"
+    },
+    {
+      "company": "LogicKit - Remote",
+      "title": "Lead Front End Developer",
+      "location": "Los Angeles, CA",
+      "time_start": "2019-05-01",
+      "time_end": "2020-04-01",
+      "present": 0,
+      "description": "- Write scalable, performant, and accessible JavaScript, HTML, and CSS utilizing modern best practices. \n- Building and maintaining UI KIT package library with React, TypeScript and Styled Components.\n- Maintain state using Apollo and Redux for complex user interfaces\n- Refactoring several UI components.\n- Change the building Process from RCA to custom webpack build config"
+    },
+    {
+      "company": "Aurora Initiative",
+      "title": "Front End Engineer",
+      "location": "Tehran, Iran",
+      "time_start": "2018-11-01",
+      "time_end": "2019-05-01",
+      "present": 0,
+      "description": "- Redesign of several UI components. \n- Building high-performance experiences and scaling the UI stack for Hooriz.com. \n- Designed and developed Mobile website. \n- New UI functionality for browsing tours. \n\nWorking on a Python/Django stack, with the following front-end technologies: React, Redux."
+    },
+    {
+      "company": "bimebazar",
+      "title": "Senior Front End Developer",
+      "location": "Tehran, Iran",
+      "time_start": "2017-02-01",
+      "time_end": "2018-10-01",
+      "present": 0,
+      "description": "as a Front End Developer, was responsible for migrating existing jQuery based frontend system to React. The goal was making the migration process in a gradual and consistent way And making this process transparent to users. With a scheduled migration plan and working with a wonderful team, the whole system was migrated properly.\n- Identify problems and design practical UI/UX solutions\n- Establish a branding style guide that aligns with the design system and front-end infrastructure.\n- develop web application using React JS.\n- Design & develop beautiful, easy-to-use web applications and sites that support Bimebazar's marketing campaigns."
+    },
+    {
+      "company": "Karina Mobile Solutions",
+      "title": "Front End Developer",
+      "location": "Tehran, Iran",
+      "time_start": "2013-01-01",
+      "time_end": "2014-02-01",
+      "present": 0,
+      "description": "- Designed CSS templates for use in all pages on the website working with CSS Background, positioning, text, border, margin, padding, and table.\n- Applied optimization techniques to reduce page size and load times to enhance user experience using sprites.\n- Developed user interface by using the HTML, CSS, Jquery, Javascript and Wordpress."
+    },
+    {
+      "company": "Freelancer",
+      "title": "Front End Developer & User Interface Designer",
+      "location": "Tehran, Iran",
+      "time_start": "2008-08-01",
+      "time_end": "2013-01-01",
+      "present": 0,
+      "description": "UI Designer - Front-end Developer and Wordpress theme Designer"
+    }
+  ],
+  "educations": [
+    {
+      "name": "Azad University",
+      "time_start": "2015-09-01",
+      "time_end": "2017-05-01",
+      "present": 0,
+      "location": "Ilam, Iran",
+      "degree": "Bachelor",
+      "field": "Software Engineer",
+      "description": ""
+    },
+    {
+      "name": "Raja University",
+      "time_start": "2013-01-01",
+      "time_end": "2015-05-01",
+      "present": 0,
+      "location": "Qazvin, Iran",
+      "degree": "Associate Degree",
+      "field": "Software Engineer",
+      "description": ""
+    }
+  ],
+  "skills": {
+    "other": [
+      { "title": "Javascript", "level": 100 },
+      { "title": "Typescript", "level": 100 },
+      { "title": "Reactjs", "level": 100 },
+      { "title": "Nextjs", "level": 100 },
+      { "title": "Redux", "level": 100 },
+      { "title": "Webpack", "level": 100 },
+      { "title": "GraphQL", "level": 100 },
+      { "title": "HTML", "level": 100 },
+      { "title": "CSS", "level": 100 }
+    ],
+    "language": [
+      { "title": "English", "level": 80 },
+      { "title": "Persian", "level": 100 },
+      { "title": "Kurdish", "level": 100 }
+    ],
+    "software": []
+  },
+  "portfolio": [
+    {
+      "title": "Omid Website",
+      "thumb": "works/omid/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2022-03-01",
+      "time_end": null,
+      "website": "http://omid.ir",
+      "description": null,
+      "content": "",
+      "attachments": {
+        "photo": [
+          "works/omid/screen1.png",
+          "works/omid/screen2.png",
+          "works/omid/screen3.png",
+          "works/omid/screen4.png",
+          "works/omid/screen5.png"
+        ]
+      },
+      "tags": ["Dark Theme", "nextjs", "reactjs", "omid"],
+      "tools": ["javascript", "material ui", "NextJs", "ReactJs"]
+    },
+    {
+      "title": "Zamineh Online Book",
+      "thumb": "works/zamineh/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2018-09-01",
+      "time_end": null,
+      "website": "https://zamineh.net/mag",
+      "description": null,
+      "content": "Zamineh Online book reader",
+      "attachments": {
+        "photo": [
+          "works/zamineh/screen1.png",
+          "works/zamineh/screen2.png",
+          "works/zamineh/screen3.png"
+        ]
+      },
+      "tags": ["Web Design"],
+      "tools": ["scss", "HTML", "jQuery"]
+    },
+    {
+      "title": "Dibaache",
+      "thumb": "works/dibaache/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2020-09-01",
+      "time_end": null,
+      "website": "http://dibaache.com",
+      "description": null,
+      "content": "",
+      "attachments": {
+        "photo": [
+          "works/dibaache/screen1.png",
+          "works/dibaache/screen2.png",
+          "works/dibaache/screen3.png"
+        ]
+      },
+      "tags": ["News Website", "reactjs", "nextjs"],
+      "tools": [
+        "Workbox",
+        "Redux",
+        "typescript",
+        "styled component",
+        "ReactJs",
+        "NextJs"
+      ]
+    },
+    {
+      "title": "1250 Game",
+      "thumb": "works/1250game/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2020-02-01",
+      "time_end": null,
+      "website": "http://seraj.me/games/1250/",
+      "description": null,
+      "content": "1 to 50 game made with javascript",
+      "attachments": {
+        "photo": ["works/1250game/screen1.png"]
+      },
+      "tags": ["Game Development", "javaScript"],
+      "tools": ["HTML - CSS", "ECMAScript 6", "javascript"]
+    },
+    {
+      "title": "Bimebazar Android App UI",
+      "thumb": "works/bimebazar-mobile/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2018-04-01",
+      "time_end": null,
+      "website": "http://bimebazar.com",
+      "description": null,
+      "content": "",
+      "attachments": {
+        "photo": [
+          "works/bimebazar-mobile/screen1.jpg",
+          "works/bimebazar-mobile/screen2.png",
+          "works/bimebazar-mobile/screen3.png",
+          "works/bimebazar-mobile/screen4.png",
+          "works/bimebazar-mobile/screen5.png",
+          "works/bimebazar-mobile/screen6.png",
+          "works/bimebazar-mobile/screen7.png",
+          "works/bimebazar-mobile/screen8.png",
+          "works/bimebazar-mobile/screen9.png",
+          "works/bimebazar-mobile/screen10.png",
+          "works/bimebazar-mobile/screen11.png",
+          "works/bimebazar-mobile/screen12.png",
+          "works/bimebazar-mobile/screen13.png"
+        ]
+      },
+      "tags": [
+        "design",
+        "sketch",
+        "UX",
+        "UI",
+        "UI /UX",
+        "Android App",
+        "bimebazar"
+      ],
+      "tools": ["sketch"]
+    },
+    {
+      "title": "Taavoni 45 Landing Page",
+      "thumb": "works/bimebazar-t45/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2017-11-22",
+      "time_end": null,
+      "website": "https://bimebazar.ir/landing/t45",
+      "description": null,
+      "content": "\u0637\u0631\u0627\u062d\u06cc \u0648 \u0627\u062c\u0631\u0627\u06cc \u0644\u0646\u062f\u06cc\u0646\u06af \u067e\u06cc\u062c \u062a\u0639\u0627\u0648\u0646\u06cc \u06f4\u06f5 \u0628\u06cc\u0645\u0647 \u0628\u0627\u0632\u0627\u0631",
+      "attachments": {
+        "photo": ["works/bimebazar-t45/screen1.png"]
+      },
+      "tags": ["bimebazar", "UI", "Landing page", "UI Design"],
+      "tools": ["HTML5", "CSS3", "Photoshop", "Visual Studio Code"]
+    },
+    {
+      "title": "Bimebazar.com Website",
+      "thumb": "works/bimebazar/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2017-10-23",
+      "time_end": null,
+      "website": "http://bimebazar.ir",
+      "description": null,
+      "content": "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc \u0648 \u06a9\u062f\u0646\u0648\u06cc\u0633\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a \u0628\u06cc\u0645\u0647 \u0628\u0627\u0632\u0627\u0631\nhttps://bimebazar.ir",
+      "attachments": {
+        "photo": ["works/bimebazar/screen1.png", "works/bimebazar/screen2.png"]
+      },
+      "tags": [
+        "sketch",
+        "User Interface",
+        "UI /UX",
+        "UI Design",
+        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
+        "\u0628\u06cc\u0645\u0647 \u0628\u0627\u0632\u0627\u0631"
+      ],
+      "tools": ["Adobe Illustrator", "Visual Studio Code", "sketch"]
+    },
+    {
+      "title": "Flight Search Concept app",
+      "thumb": "works/flight-search-concept/thumbnail.jpg",
+      "present": 0,
+      "time_start": null,
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "Flight Search Concept app ",
+      "attachments": {
+        "photo": [
+          "works/flight-search-concept/screen1.png",
+          "works/flight-search-concept/screen2.png",
+          "works/flight-search-concept/screen3.png",
+          "works/flight-search-concept/screen4.png",
+          "works/flight-search-concept/screen5.png",
+          "works/flight-search-concept/screen6.png"
+        ]
+      },
+      "tags": [
+        "User Interface",
+        "Mobile Ui",
+        "UI",
+        "\u0628\u0644\u06cc\u0637 \u0647\u0648\u0627\u067e\u06cc\u0645\u0627",
+        "\u067e\u0631\u0648\u0627\u0632",
+        "\u0627\u067e \u0645\u0648\u0628\u0627\u06cc\u0644",
+        "\u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644",
+        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
+        "\u06a9\u0627\u0646\u0633\u067e\u062a"
+      ],
+      "tools": ["sketch"]
+    },
+    {
+      "title": "IRPPT Shop",
+      "thumb": "works/irppt/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2017-03-01",
+      "time_end": null,
+      "website": "http://irppt.com",
+      "description": null,
+      "content": "\u06a9\u062f\u0646\u0648\u06cc\u0633\u06cc \u0648 \u0627\u062c\u0631\u0627\u06cc \u067e\u0631\u0648\u0698\u0647 \u0628\u0631 \u0631\u0648\u06cc \u0633\u06cc\u0633\u062a\u0645 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062d\u062a\u0648\u0627\u06cc \u0648\u0631\u062f\u067e\u0631\u0633.",
+      "attachments": {
+        "photo": ["works/irppt/screen1.png"]
+      },
+      "tags": [
+        "\u0648\u0627\u06a9\u0646\u0634 \u06af\u0631\u0627",
+        "\u0631\u06cc\u0633\u067e\u0627\u0646\u0633\u06cc\u0648",
+        "\u06af\u0631\u06cc\u062f",
+        "\u0641\u0631\u0648\u0634\u06af\u0627\u0647",
+        "\u0648\u0631\u062f\u067e\u0631\u0633",
+        "\u06a9\u062f \u0646\u0648\u06cc\u0633\u06cc",
+        "\u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
+        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628"
+      ],
+      "tools": ["Visual Studio Code", "Adobe Photoshop CC 2017"]
+    },
+    {
+      "title": "Famous's Website UI",
+      "thumb": "works/famous/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2016-11-01",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "\u0637\u0631\u0627\u062d\u06cc \u062a\u06a9 \u0635\u0641\u062d\u0647 \u0627\u06cc\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a \u0641\u06cc\u0645\u0633.\u067e\u0631\u0648\u0698\u0647 \u06cc \u0627\u0633\u062a\u0627\u0631\u062a \u0622\u067e\u06cc",
+      "attachments": {
+        "photo": ["works/famous/screen1.png"]
+      },
+      "tags": [
+        "Wordpress",
+        "User Interface",
+        "UI Design",
+        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
+        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628",
+        "jquery",
+        "CSS3",
+        "HTML5"
+      ],
+      "tools": ["Sublime Text", "Photoshop"]
+    },
+    {
+      "title": "ILAMCHTO.IR Website",
+      "thumb": "works/ilamchto/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2017-02-01",
+      "time_end": null,
+      "website": "http://ilamchto.ir",
+      "description": null,
+      "content": "\u0637\u0631\u0627\u062d\u06cc \u0627\u06cc\u0646\u062a\u0631\u0641\u06cc\u0633 \u0648\u0628\u0633\u0627\u06cc\u062a \u0627\u062f\u0627\u0631\u0647 \u06a9\u0644 \u0645\u06cc\u0631\u0627\u062b \u0641\u0631\u0647\u0646\u06af\u06cc , \u0635\u0646\u0627\u06cc\u0639 \u062f\u0633\u062a\u06cc \u06af\u0631\u062f\u0634\u06af\u0631\u06cc \u0627\u0633\u062a\u0627\u0646 \u0627\u06cc\u0644\u0627\u0645 \u0648 \u0627\u0646\u062a\u0642\u0627\u0644 \u06a9\u0627\u0645\u0644 \u0646\u0633\u062e\u0647 \u0642\u062f\u06cc\u0645\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a \u0627\u0632 \u062c\u0648\u0645\u0644\u0627 \u0628\u0647 \u0648\u0631\u062f\u067e\u0631\u0633.",
+      "attachments": {
+        "photo": ["works/ilamchto/screen1.png"]
+      },
+      "tags": [
+        "Wordpress theme",
+        "UX Design",
+        "UI Design",
+        "CSS3",
+        "HTML5",
+        "\u0648\u0631\u062f\u067e\u0631\u0633",
+        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
+        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a"
+      ],
+      "tools": ["Adobe Photoshop", "Sublime Text"]
+    },
+    {
+      "title": "Decoration UI",
+      "thumb": "works/decore-ui/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2014-12-01",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": " \n",
+      "attachments": {
+        "photo": ["works/decore-ui/screen1.png"]
+      },
+      "tags": [
+        "seraj",
+        "svahdati",
+        "jquery",
+        "css",
+        "html",
+        "UX",
+        "Wordpress",
+        "UI"
+      ],
+      "tools": ["Sublime Text", "\u0641\u062a\u0648\u0634\u0627\u067e"]
+    },
+    {
+      "title": "Bebinin magazine website",
+      "thumb": "works/bebinin/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2013-03-01",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "\u0637\u0631\u0627\u062d\u06cc \u0645\u062c\u0644\u0647\u200c\u06cc \u0627\u06cc\u0646\u062a\u0631\u0646\u062a\u06cc \u0628\u0628\u06cc\u0646\u06cc\u0646 \u062f\u0631 \u0633\u0627\u0644 1392",
+      "attachments": {
+        "photo": ["works/bebinin/screen1.jpg"]
+      },
+      "tags": [
+        "Web Design",
+        "UI /UX",
+        "UX Design",
+        "UI Design",
+        "Wordpress theme",
+        "Magazine"
+      ],
+      "tools": []
+    },
+    {
+      "title": "Kandi magazine website",
+      "thumb": "works/kandi-mag/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2014-09-01",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "\u0645\u062c\u0644\u0647 \u06cc \u0627\u06cc\u0646\u062a\u0631\u0646\u062a\u06cc \u06a9\u0646\u062f\u06cc",
+      "attachments": {
+        "photo": ["works/kandi-mag/sreen1.jpg"]
+      },
+      "tags": ["User Interface", "Wordpress", "CSS3", "HTML5"],
+      "tools": ["ColorSchemer Studio", "Sublime Text", "Adobe Photoshop"]
+    },
+    {
+      "title": "Jananeh website",
+      "thumb": "works/jananeh-mag/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2013-04-01",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "\u0648\u0628\u0633\u0627\u06cc\u062a \u062c\u0627\u0646\u0627\u0646\u0647 \u0633\u0627\u0644 1392",
+      "attachments": {
+        "photo": ["works/jananeh-mag/thumbnail.jpg"]
+      },
+      "tags": [
+        "Wordpress",
+        "responsive",
+        "CSS3",
+        "css",
+        "html",
+        "\u0637\u0631\u0627\u062d\u06cc \u06af\u0631\u0627\u0641\u06cc\u06a9",
+        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628 \u0633\u0627\u0644\u062a"
+      ],
+      "tools": ["ColorSchemer Studio", "Sublime Text", "Adobe Photoshop"]
+    },
+    {
+      "title": "Tehran98 magazine website",
+      "thumb": "works/tehran98-mag/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2013-06-01",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "\u0627\u06cc\u0646 \u0637\u0631\u0627\u062d\u06cc \u0633\u0627\u0644 1392 \u0627\u0646\u062c\u0627\u0645 \u0634\u062f\u0647 \u0648 \u0628\u0627 \u0628\u0631\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062d\u062a\u0648\u0627\u06cc \u0648\u0631\u062f\u067e\u0631\u0633 \u0637\u0631\u0627\u062d\u06cc \u0634\u062f\u0647 \u0627\u0633\u062a.",
+      "attachments": {
+        "photo": ["works/tehran98-mag/screen1.jpg"]
+      },
+      "tags": [
+        "Magazine",
+        "tehran98",
+        "User Interface",
+        "UX",
+        "UI",
+        "\u0637\u0631\u0627\u062d\u06cc \u0642\u0627\u0644\u0628 \u0648\u0631\u062f\u067e\u0631\u0633",
+        "\u0648\u0631\u062f\u067e\u0631\u0633",
+        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628"
+      ],
+      "tools": []
+    },
+    {
+      "title": "Moslom Mohammadian's Website",
+      "thumb": "works/mmuh-website/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2011-10-23",
+      "time_end": null,
+      "website": "",
+      "description": null,
+      "content": "\u0648\u0628\u0633\u0627\u06cc\u062a \u062c\u0646\u0627\u0628 \u0645\u0633\u0644\u0645 \u0645\u062d\u0645\u062f\u06cc\u0627\u0646 \u0627\u0632 \u0646\u0627\u0645\u0632\u062f \u0647\u0627\u06cc \u0628\u0631\u062c\u0633\u062a\u0647 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0645\u062c\u0644\u0633 \u0633\u0627\u0644 1390",
+      "attachments": {
+        "photo": ["works/mmuh-website/screen1.jpg"]
+      },
+      "tags": ["Wordpress theme", "CSS3", "html", "UI Design"],
+      "tools": ["Adobe Photoshop", "Sublime Text"]
+    },
+    {
+      "title": "My Portfolio",
+      "thumb": "works/svahdati/thumbnail.jpg",
+      "present": 0,
+      "time_start": "2011-09-01",
+      "time_end": null,
+      "website": "http://svahdati.com",
+      "description": null,
+      "content": "\u0637\u0631\u0627\u062d\u06cc \u0628\u0631\u0627\u06cc \u0633\u0627\u0644 1390 \u0645\u06cc\u0628\u0627\u0634\u062f",
+      "attachments": {
+        "photo": ["works/svahdati/screen1.jpg"]
+      },
+      "tags": [
+        "UX Design",
+        "UI Design",
+        "CSS3",
+        "HTML5",
+        "Wordpress",
+        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628"
+      ],
+      "tools": []
+    }
+  ],
+  "contacts": {
+    "tel": "+989120535594",
+    "email": "svahdati71@gmail.com",
+    "website": "http://seraj.me",
+    "location": "Tehran, Iran"
+  },
+  "achievements": [],
+  "custom_data": []
+}

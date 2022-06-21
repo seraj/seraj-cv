@@ -13,7 +13,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "baseUrl": ".",
+    "incremental": true,
+    "paths": {
+      "@components": ["components/index.ts"],
+      "@components/*": ["components/*"],
+      "@data": ["data/resume.json"],
+      "@themes": ["ResumeThemes/index.ts"],
+      "@themes/*": ["ResumeThemes/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
