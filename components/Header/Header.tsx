@@ -7,7 +7,7 @@ import {
   useMantineColorScheme,
 } from "@mantine/core";
 
-import { ToggleDarkMode } from "../index";
+import { ToggleDarkMode, Github } from "../index";
 const useStyles = createStyles((theme) => ({
   root: {
     backgroundColor: "#1A1B1E",
@@ -62,6 +62,8 @@ const useStyles = createStyles((theme) => ({
   toggleDarkMode: {
     position: "absolute",
     right: 0,
+    display: "flex",
+    gap: 15,
   },
 }));
 
@@ -102,6 +104,7 @@ const ResumeHeader = () => {
           {items}
         </Group>
         <div className={classes.toggleDarkMode}>
+          <Github />
           <ToggleDarkMode />
         </div>
       </Container>
