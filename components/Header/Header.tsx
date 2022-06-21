@@ -67,15 +67,20 @@ const useStyles = createStyles((theme) => ({
 
 const ResumeHeader = () => {
   const { colorScheme } = useMantineColorScheme();
-  const links = [{ link: `/resume-${colorScheme}.pdf`, label: "Download PDF" }];
-  const [active, setActive] = useState(links[0].link);
+  const links = [
+    {
+      link: `pdf/${colorScheme}/SerajVahdati-Resume.pdf`,
+      label: "Download PDF",
+    },
+  ];
+  const [active] = useState(links[0].link);
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
     <a
       key={link.label}
       href={link.link}
-      download="Seraj Vahdati Resume.pdf"
+      download
       className={cx(classes.link, {
         [classes.linkActive]: active === link.link,
       })}
