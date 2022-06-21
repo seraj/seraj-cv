@@ -1,5 +1,6 @@
 {
   "name": "seraj-cv",
+  "description": "simple resume builder",
   "version": "0.1.0",
   "author": "Seraj Vahdati",
   "private": true,
