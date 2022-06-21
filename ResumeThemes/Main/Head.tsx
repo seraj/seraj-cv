@@ -1,4 +1,4 @@
-import { profile, contacts } from "@data";
+import { profile } from "@data";
 import { StyledHead } from "./Main.styled";
 
 const Head = () => {

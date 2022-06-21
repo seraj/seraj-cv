@@ -1,5 +1,4 @@
 import { contacts } from "@data";
-import { Grid } from "@mantine/core";
 import { StyledContact } from "./Main.styled";
 
 const Contact = () => {

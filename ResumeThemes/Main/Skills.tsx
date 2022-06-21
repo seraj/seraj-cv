@@ -1,4 +1,5 @@
 import { skills } from "@data";
+
 import { StyledDataProvider, StyledSkills, StyledItems } from "./Main.styled";
 import Title from "./Title";
 

@@ -1,6 +1,5 @@
 import { works } from "@data";
 import { format } from "date-fns";
-import { Grid } from "@mantine/core";
 import {
   StyledExperiences,
   StyledDataProvider,

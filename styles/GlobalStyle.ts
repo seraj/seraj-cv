@@ -5,13 +5,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #323742 !important;
-    box-shadow: 0 22em #272b33 inset !important;
+    background-color: #323742 ;
+    /* box-shadow: 0 22em #272b33 inset ; */
 
   }
 `;
 
-const theme = {
+export const theme = {
   colors: {
     primary: "#0070f3",
   },
