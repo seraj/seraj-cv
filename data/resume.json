@@ -9,13 +9,13 @@
   },
   "works": [
     {
-      "company": "PixcelsAndCode",
+      "company": "Goki",
       "title": "Senior Front End Engineer",
       "location": "Tehran, Iran",
       "time_start": "2022-06-22",
       "time_end": null,
       "present": 1,
-      "description": ""
+      "description": "- Develop new features for Goki Dashboard.\n- refactor old codebases"
     },
     {
       "company": "Omid Analyzer",

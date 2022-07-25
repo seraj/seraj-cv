@@ -13,9 +13,9 @@ const Main = () => {
     <StyledCard colorScheme={colorScheme}>
       <StyledContainer>
         <Head />
-        <Educations />
         <Experiences />
         <Skills />
+        <Educations />
         {/* <Portfolio /> */}
         {/* <Contact /> */}
       </StyledContainer>

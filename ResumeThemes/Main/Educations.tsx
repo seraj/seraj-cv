@@ -17,7 +17,9 @@ const Educations = () => {
             {educations.map((edu) => (
               <li key={edu.name}>
                 <h3>{edu.name}</h3>
-                <div className="item-location">{edu.field}</div>
+                <div className="item-location">
+                  {edu.degree} - {edu.field}
+                </div>
                 <div className="item-date">
                   {format(new Date(edu.time_start), "MM/yyyy")} -{" "}
                   {format(new Date(edu.time_end), "MM/yyyy")}

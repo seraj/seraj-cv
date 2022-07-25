@@ -77,7 +77,8 @@ export const StyledEducations = styled.div`
       justify-content: space-between;
       li {
         display: flex;
-        gap: ${columnGap};
+        gap: 4px;
+        font-size: 0.9em;
       }
     }
   }
