@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const columnGap = "20px";
+const columnGap = "10px";
 const fontSize = "15px";
 
 type Card = {
@@ -20,32 +20,29 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   line-height: 1.9em;
   font-size: ${fontSize};
-  padding: 100px;
-  gap: 40px;
+  padding: 20px 50px;
+  gap: ${columnGap};
   a {
-    color: ${(props) => props.theme.colors.primary};
+    /* color: ${(props) => props.theme.colors.primary}; */
   }
 `;
 
-type Item = {
+type FlexType = {
   direction?: "row" | "column";
+  gap?: string;
 };
 
-export const StyledItems = styled.div<Item>`
+export const StyledItems = styled.div<FlexType>`
   display: flex;
   flex-direction: ${(props) => (props.direction === "row" ? "row" : "column")};
-  gap: ${columnGap};
+  gap: ${(props) => props.gap || columnGap};
   .item {
-    &-location,
-    &-date {
-      font-size: 0.8rem;
-    }
     &-title {
       font-size: 1rem;
       font-weight: 400;
     }
     &-desc {
-      color: #768097;
+      /* color: #768097; */
       font-size: 0.88em;
       overflow-wrap: break-word;
       word-break: break-word;
@@ -58,16 +55,15 @@ export const StyledExperiences = styled.div`
     ul {
       li {
         display: block;
-        margin-bottom: 1.5em;
+        margin-bottom: ${columnGap};
         .title {
-          width: 46%;
-          display: inline-block;
-          vertical-align: top;
-        }
-        .details {
-          width: 46%;
-          display: inline-block;
-          vertical-align: top;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            display: inline-block;
+            margin-right: 10px;
+          }
         }
       }
     }
@@ -78,9 +74,10 @@ export const StyledEducations = styled.div`
   ${StyledItems} {
     ul {
       display: flex;
-      gap: 50px;
+      justify-content: space-between;
       li {
-        margin-bottom: 1.5em;
+        display: flex;
+        gap: ${columnGap};
       }
     }
   }
@@ -90,9 +87,10 @@ export const StyledHead = styled.div`
   flex-direction: column;
   gap: ${columnGap};
   .profile {
-    &-name {
+    &-head {
+      text-align: center;
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 800;
         font-style: normal;
         text-transform: uppercase;
@@ -100,6 +98,27 @@ export const StyledHead = styled.div`
           font-weight: 300;
         }
       }
+      .contact {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        span {
+          position: relative;
+
+          &:not(:last-child):after {
+            position: absolute;
+            right: -10px;
+            top: 7px;
+            content: "";
+            background-color: ${({ theme }) => theme.colors.primary};
+            width: 1px;
+            height: 15px;
+          }
+        }
+      }
+    }
+    &-bio {
+      font-weight: bold;
     }
   }
 `;
@@ -132,9 +151,9 @@ export const StyledContact = styled.div`
     }
   }
 `;
-export const StyledDataProvider = styled.div`
+export const StyledDataProvider = styled.div<FlexType>`
   display: flex;
-  flex-direction: column;
+  flex-direction: ${(props) => (props.direction === "row" ? "row" : "column")};
   gap: ${columnGap};
 `;
 
@@ -167,11 +186,6 @@ export const StyledPortfolio = styled.div`
 `;
 
 export const StyledSkills = styled.div`
-  display: flex;
-  gap: ${columnGap};
-  > div:first-child {
-    width: 65%;
-  }
   ${StyledItems} {
     flex-wrap: wrap;
     h3 {
@@ -182,7 +196,7 @@ export const StyledSkills = styled.div`
 `;
 
 export const StyledTitle = styled.h2`
-  font-size: 1.3rem;
+  margin-bottom: ${columnGap};
+  font-size: 1.2rem;
   color: ${({ theme }) => theme.colors.primary};
-  text-transform: uppercase;
 `;

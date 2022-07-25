@@ -19,8 +19,8 @@ const Educations = () => {
                 <h3>{edu.name}</h3>
                 <div className="item-location">{edu.field}</div>
                 <div className="item-date">
-                  {format(new Date(edu.time_start), "MMMM yyyy")} to{" "}
-                  {format(new Date(edu.time_end), "MMMM yyyy")}
+                  {format(new Date(edu.time_start), "MM/yyyy")} -{" "}
+                  {format(new Date(edu.time_end), "MM/yyyy")}
                 </div>
               </li>
             ))}

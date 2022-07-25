@@ -17,27 +17,27 @@ const Experiences = () => {
             {works.map((work) => (
               <li key={work.company}>
                 <div className="title">
-                  <h3>{work.company}</h3>
-                  <div className="item-location">{work.location}</div>
+                  <div>
+                    <h3>{work.company}</h3>
+                    <span className="item-title">{work.title}</span>
+                  </div>
+                  {/* <div className="item-location">{work.location}</div> */}
                   <div className="item-date">
-                    {format(new Date(work.time_start), "MMMM yyyy")}
+                    {format(new Date(work.time_start), "MM/yyyy")}
                     {work.time_end
-                      ? ` to ${format(new Date(work.time_end), "MMMM yyyy")}`
-                      : " Until now"}
+                      ? ` - ${format(new Date(work.time_end), "MM/yyyy")}`
+                      : ""}
                   </div>
                 </div>
-                <div className="details">
-                  <div className="item-title">{work.title}</div>
-                  <div className="item-desc">
-                    {work.description.split("\n").map(function (item, idx) {
-                      return (
-                        <span key={idx}>
-                          {item}
-                          <br />
-                        </span>
-                      );
-                    })}
-                  </div>
+                <div className="item-desc">
+                  {work.description.split("\n").map(function (item, idx) {
+                    return (
+                      <span key={idx}>
+                        {item}
+                        <br />
+                      </span>
+                    );
+                  })}
                 </div>
               </li>
             ))}

@@ -13,16 +13,11 @@ const Main = () => {
     <StyledCard colorScheme={colorScheme}>
       <StyledContainer>
         <Head />
-        <Divider variant="dashed" />
-        <Experiences />
-        <Divider variant="dashed" />
-        <Skills />
-        <Divider variant="dashed" />
         <Educations />
-        <Divider variant="dashed" />
-        <Portfolio />
-        <Divider variant="dashed" />
-        <Contact />
+        <Experiences />
+        <Skills />
+        {/* <Portfolio /> */}
+        {/* <Contact /> */}
       </StyledContainer>
     </StyledCard>
   );

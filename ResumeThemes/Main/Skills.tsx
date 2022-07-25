@@ -6,29 +6,29 @@ import Title from "./Title";
 const Skills = () => {
   return (
     <StyledSkills>
-      <div>
-        <Title title="Skills" />
-        <StyledDataProvider>
-          <StyledItems direction="row">
-            {skills.other.map((skill) => (
-              <h3 key={skill.title}>{skill.title}</h3>
-            ))}
-          </StyledItems>
-        </StyledDataProvider>
-      </div>
+      <Title title="Skills" />
+      <Items title="Proficient Languages & Frameworks" data={skills.main} />
 
-      <div>
-        <Title title="Language" />
-        <StyledDataProvider>
-          <StyledItems direction="row">
-            {skills.language.map((lang) => (
-              <h3 key={lang.title}>{lang.title}</h3>
-            ))}
-          </StyledItems>
-        </StyledDataProvider>
-      </div>
+      <Items
+        title="Knowledgeable Languages & Frameworks"
+        data={skills.others}
+      />
+      <Items title="Tools" data={skills.tools} />
+      <Items title="Bilingual" data={skills.language} />
     </StyledSkills>
   );
 };
 
+const Items = ({ data, title }: { data: string[]; title: string }) => {
+  return (
+    <StyledDataProvider direction="row">
+      <h3>{title}: </h3>
+      <StyledItems direction="row" gap="7px">
+        {data.map((item: string) => (
+          <h3 key={item}>{item}</h3>
+        ))}
+      </StyledItems>
+    </StyledDataProvider>
+  );
+};
 export default Skills;
