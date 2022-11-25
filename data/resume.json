@@ -15,7 +15,7 @@
       "time_start": "2022-06-22",
       "time_end": null,
       "present": 1,
-      "description": "- Develop new features for Goki Dashboard.\n- refactor old codebases"
+      "description": "- Develop new features using reactjs, typescript, styled-components and antd.\n- Improve the api logic by implementing UAC (Universal Api Consumer), which is separate from the main project.\n- refactor old codebases."
     },
     {
       "company": "Omid Analyzer",
@@ -24,7 +24,7 @@
       "time_start": "2020-03-01",
       "time_end": "2022-06-22",
       "present": 1,
-      "description": "- Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.\n- implement UI KIT using typescript, styled-component, and reactjs.\n- improve the culture of Git Flow, Component structure, and clean code strategy.\n- Redesigning the product using sketch"
+      "description": "- Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.\n- implement UI KIT using typescript, styled-component, and reactjs.\n- improve the culture of Git Flow, Component structure, and clean code strategy.\n- Redesigning the product using sketch."
     },
     {
       "company": "LogicKit - Remote",
@@ -33,7 +33,7 @@
       "time_start": "2019-05-01",
       "time_end": "2020-04-01",
       "present": 0,
-      "description": "- Write scalable, performant, and accessible JavaScript, HTML, and CSS utilizing modern best practices. \n- Building and maintaining UI KIT package library with React, TypeScript and Styled Components.\n- Maintain state using Apollo and Redux for complex user interfaces\n- Change the building Process from RCA to custom webpack build config"
+      "description": "- Write scalable, performant, and accessible JavaScript, HTML, and CSS utilizing modern best practices. \n- Building and maintaining UI KIT package library with React, TypeScript and Styled Components.\n- Maintain state using Apollo and Redux for complex user interfaces\n- Change the building Process from RCA to custom webpack build config."
     },
     {
       "company": "Aurora Initiative",
@@ -69,7 +69,7 @@
       "time_start": "2008-08-01",
       "time_end": "2013-01-01",
       "present": 0,
-      "description": "UI Designer - Front-end Developer and Wordpress theme Developer"
+      "description": "UI Designer - Front-end Developer and Wordpress theme Developer."
     }
   ],
   "educations": [
