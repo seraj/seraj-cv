@@ -15,7 +15,7 @@
       "time_start": "2022-06-22",
       "time_end": null,
       "present": 1,
-      "description": "- Develop new features using reactjs, typescript, styled-components and antd.\n- Improve the api logic by implementing UAC (Universal Api Consumer), which is separate from the main project.\n- refactor old codebases."
+      "description": "- Develop new features using reactjs, typescript, styled-components and antd.\n- Improve the api logic by implementing UAC - axios, react-qeury (Universal Api Consumer), which is separate from the main project.\n- refactor old codebases."
     },
     {
       "company": "Omid Analyzer",
