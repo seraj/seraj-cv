@@ -23,9 +23,9 @@ const Experiences = () => {
                   </div>
                   {/* <div className="item-location">{work.location}</div> */}
                   <div className="item-date">
-                    {format(new Date(work.time_start), "MM/yyyy")}
+                    {format(new Date(work.time_start), "MMMM yyyy")}
                     {work.time_end
-                      ? ` - ${format(new Date(work.time_end), "MM/yyyy")}`
+                      ? ` - ${format(new Date(work.time_end), "MMMM yyyy")}`
                       : ""}
                   </div>
                 </div>

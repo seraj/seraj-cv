@@ -9,13 +9,21 @@
   },
   "works": [
     {
+      "company": "Setflow",
+      "title": "Senior Front End Engineer",
+      "location": "Remote",
+      "time_start": "2023-07-01",
+      "present": 1,
+      "description": "- In my role as a Front End Engineer, I leverage my proficiency in Next.js, Tailwind CSS, and MUI (Material-UI) to drive the development of new features for our company. Collaborating closely with a talented team of developers, I actively contribute to the improvement of our Next.js project. From conceptualization to implementation, I ensure the seamless integration of cutting-edge technologies and design principles. Additionally, I play a vital role in refactoring our existing codebases, optimizing performance, and enhancing maintainability. By promptly addressing bugs and issues, I reinforce the stability and reliability of our application, ensuring a superior user experience."
+    },
+    {
       "company": "Goki",
       "title": "Senior Front End Engineer",
-      "location": "Tehran, Iran",
+      "location": "Remote",
       "time_start": "2022-06-22",
-      "time_end": null,
-      "present": 1,
-      "description": "- Develop new features using reactjs, typescript, styled-components and antd.\n- Improve the api logic by implementing UAC - axios, react-qeury (Universal Api Consumer), which is separate from the main project.\n- refactor old codebases."
+      "time_end": "2023-07-01",
+      "present": 0,
+      "description": "- Develop new features using reactjs, typescript, styled-components and antd.\n- Improve the api logic by implementing UAC - axios, react-qeury (Universal Api Consumer), which is separate from the main project.\n-  \n- Rewrote existing codebase to improve maintainability and readability."
     },
     {
       "company": "Omid Analyzer",
@@ -23,13 +31,13 @@
       "location": "Tehran, Iran",
       "time_start": "2020-03-01",
       "time_end": "2022-06-22",
-      "present": 1,
+      "present": 0,
       "description": "- Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.\n- implement UI KIT using typescript, styled-component, and reactjs.\n- improve the culture of Git Flow, Component structure, and clean code strategy.\n- Redesigning the product using sketch."
     },
     {
       "company": "LogicKit - Remote",
       "title": "Lead Front End Developer",
-      "location": "Los Angeles, CA",
+      "location": "Remote",
       "time_start": "2019-05-01",
       "time_end": "2020-04-01",
       "present": 0,
