@@ -105,13 +105,15 @@
   "skills": {
     "tools": ["Git", "Linux", "Jest"],
     "main": [
-      "Javascript",
-      "Typescript",
       "React",
+      "Typescript",
+      "Javascript",
       "Nextjs",
-      "Redux",
+      "Tailwind",
+      "Zustand",
       "Webpack",
-      "GraphQL"
+      "GraphQL",
+      "Redux"
     ],
     "others": ["Python", "Java", "PHP", "SQL", "Django"],
     "language": ["Persian", "English", "Kurdish"]
