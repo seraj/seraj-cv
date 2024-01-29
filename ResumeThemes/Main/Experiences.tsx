@@ -1,8 +1,8 @@
 import { works } from "@data";
 import { format } from "date-fns";
 import {
-  StyledExperiences,
   StyledDataProvider,
+  StyledExperiences,
   StyledItems,
 } from "./Main.styled";
 import Title from "./Title";
@@ -26,10 +26,11 @@ const Experiences = () => {
                     {format(new Date(work.time_start), "MMMM yyyy")}
                     {work.time_end
                       ? ` - ${format(new Date(work.time_end), "MMMM yyyy")}`
-                      : ""}
+                      : " - Now"}
                   </div>
                 </div>
-                <div className="item-desc">
+                {work?.description && (
+                  <div className="item-desc">
                   {work.description.split("\n").map(function (item, idx) {
                     return (
                       <span key={idx}>
@@ -39,6 +40,7 @@ const Experiences = () => {
                     );
                   })}
                 </div>
+                  )}
               </li>
             ))}
           </ul>

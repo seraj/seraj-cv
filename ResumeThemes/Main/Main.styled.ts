@@ -20,7 +20,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   line-height: 1.9em;
   font-size: ${fontSize};
-  padding: 20px 50px;
+  padding: 30px 50px;
   gap: ${columnGap};
   a {
     /* color: ${(props) => props.theme.colors.primary}; */
@@ -85,37 +85,47 @@ export const StyledEducations = styled.div`
 `;
 export const StyledHead = styled.div`
   display: flex;
+  line-height: 1.9em;
+  font-size: ${fontSize};
   flex-direction: column;
-  gap: ${columnGap};
   .profile {
     &-head {
-      text-align: center;
+      display:flex;
+      justify-content: space-between;
       h1 {
         font-size: 2rem;
         font-weight: 800;
+        margin:0;
         font-style: normal;
         text-transform: uppercase;
         span {
           font-weight: 300;
         }
       }
+      h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        margin:0;
+        font-style: normal;
+        text-transform: uppercase;
+      }
       .contact {
         display: flex;
-        gap: 20px;
-        justify-content: center;
-        span {
-          position: relative;
+        flex-direction: column;
+        align-items: flex-end;
+        // span {
+        //   position: relative;
 
-          &:not(:last-child):after {
-            position: absolute;
-            right: -10px;
-            top: 7px;
-            content: "";
-            background-color: ${({ theme }) => theme.colors.primary};
-            width: 1px;
-            height: 15px;
-          }
-        }
+        //   &:not(:last-child):after {
+        //     position: absolute;
+        //     right: -10px;
+        //     top: 7px;
+        //     content: "";
+        //     background-color: #aaa;
+        //     width: 1px;
+        //     height: 15px;
+        //   }
+        // }
       }
     }
     &-bio {
@@ -197,6 +207,7 @@ export const StyledSkills = styled.div`
 `;
 
 export const StyledTitle = styled.h2`
+margin:0;
   margin-bottom: ${columnGap};
   font-size: 1.2rem;
   color: ${({ theme }) => theme.colors.primary};

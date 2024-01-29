@@ -1,14 +1,18 @@
-import { profile, contacts } from "@data";
+import { contacts, profile } from "@data";
 import { StyledHead } from "./Main.styled";
 
 const Head = () => {
   return (
     <StyledHead>
       <div className="profile-head">
+        <div>
+
         <h1>
           {profile.firstname}
           <span> {profile.lastname}</span>
-        </h1>
+          </h1>
+          <h2>{profile.bio}</h2>
+        </div>
         <div className="contact">
           <span>
             <a href={`mailto:${contacts.email}`}>{contacts.email}</a>

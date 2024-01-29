@@ -1,11 +1,9 @@
-import { useMantineColorScheme, Divider } from "@mantine/core";
-import { StyledContainer, StyledCard } from "./Main.styled";
-import Head from "./Head";
-import Experiences from "./Experiences";
-import Skills from "./Skills";
+import { useMantineColorScheme } from "@mantine/core";
 import Educations from "./Educations";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import Experiences from "./Experiences";
+import Head from "./Head";
+import { StyledCard, StyledContainer } from "./Main.styled";
+import Skills from "./Skills";
 
 const Main = () => {
   const { colorScheme } = useMantineColorScheme();
