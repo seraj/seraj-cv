@@ -1,16 +1,15 @@
 import { educations } from "@data";
 import { format } from "date-fns";
 import {
-  StyledEducations,
   StyledDataProvider,
+  StyledEducations,
   StyledItems,
 } from "./Main.styled";
-import Title from "./Title";
 
 const Educations = () => {
   return (
     <StyledEducations>
-      <Title title="Educations" />
+      {/* <Title title="Educations" /> */}
       <StyledDataProvider>
         <StyledItems>
           <ul>

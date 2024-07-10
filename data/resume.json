@@ -10,20 +10,29 @@
   "works": [
     {
       "company": "Setflow",
+      "isRemote": true,
       "title": "Senior Front End Engineer",
-      "location": "Remote",
       "time_start": "2023-07-01",
       "present": 1,
-      "description": "- In my role as a Front End Engineer, I leverage my proficiency in Next.js, Tailwind CSS, and MUI (Material-UI) to drive the development of new features for our company. Collaborating closely with a talented team of developers, I actively contribute to the improvement of our Next.js project. From conceptualization to implementation, I ensure the seamless integration of cutting-edge technologies and design principles. Additionally, I play a vital role in refactoring our existing codebases, optimizing performance, and enhancing maintainability. By promptly addressing bugs and issues, I reinforce the stability and reliability of our application, ensuring a superior user experience."
+      "description": [
+        "Implemented Authentication",
+        "Implemented Annotation and Map components to elevate user interaction and functionality.",
+        "Developed new features using <b>Nextjs</b>, Typescript, and <b>shadcn</b>.",
+        "Refactored existing codebase to improve maintainability and readability."
+      ]
     },
     {
       "company": "Goki",
+      "isRemote": true,
       "title": "Senior Front End Engineer",
-      "location": "Remote",
       "time_start": "2022-06-22",
       "time_end": "2023-07-01",
       "present": 0,
-      "description": "- Develop new features using reactjs, typescript, styled-components and antd.\n- Improve the api logic by implementing UAC - axios, react-qeury (Universal Api Consumer), which is separate from the main project.\n- Rewrote existing codebase to improve maintainability and readability."
+      "description": [
+        "Develop new features using reactjs, typescript, styled-components and antd.",
+        "Improve the API logic by implementing <b>UAC</b> (Universal Api Consumer)",
+        "Rewrote existing codebase to improve maintainability and readability."
+      ]
     },
     {
       "company": "Omid Analyzer",
@@ -32,25 +41,39 @@
       "time_start": "2020-03-01",
       "time_end": "2022-06-22",
       "present": 0,
-      "description": "- Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.\n- implement UI KIT using typescript, styled-component, and reactjs.\n- improve the culture of Git Flow, Component structure, and clean code strategy.\n- Redesigning the product using sketch."
+      "description": [
+        "Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.",
+        "implement UI KIT using typescript, styled-component, and reactjs.",
+        "improve the culture of Git Flow, Component structure, and clean code strategy.",
+        "Redesign the product using sketch."
+      ]
     },
     {
-      "company": "LogicKit - Remote",
+      "company": "LogicKit",
+      "isRemote": true,
       "title": "Lead Front End Developer",
-      "location": "Remote",
       "time_start": "2018-11-01",
       "time_end": "2020-04-01",
       "present": 0,
-      "description": "- Write scalable, performant, and accessible JavaScript, HTML, and CSS utilizing modern best practices. \n- Building and maintaining UI KIT package library with React, TypeScript and Styled Components.\n- Maintain state using Apollo and Redux for complex user interfaces\n- Change the building Process from RCA to custom webpack build config."
+      "description": [
+        "Led a team of 3 developers to build a new product from scratch using React, Typescript, Redux, and <b>Apollo</b>.",
+        "Building and maintaining UI KIT package library with React, <b>TypeScript</b> and <b>Styled-Components</b>.",
+        "Maintain state using Apollo and Redux for complex user interfaces",
+        "Change the building Process from RCA to custom webpack build config."
+      ]
     },
     {
       "company": "Bimebazar",
-      "title": "Senior Front End Developer",
+      "title": "Front End Developer",
       "location": "Tehran, Iran",
       "time_start": "2016-05-01",
       "time_end": "2018-10-01",
       "present": 0,
-      "description": "- Identify problems and design practical UI/UX solutions\n- develop web application using React JS.\n- Design & develop beautiful, easy-to-use web applications and sites that support Bimebazar's marketing campaigns."
+      "description": [
+        "<b>Migrate</b> the project from pure HTML, CSS, and jQuery to React, <b>Redux</b>, and Webpack.",
+        "Developed a new feature using React, Redux, and Webpack.",
+        "Redesign the product using sketch."
+      ]
     },
     {
       "company": "Karina Mobile Solutions",
@@ -59,7 +82,11 @@
       "time_start": "2012-01-01",
       "time_end": "2014-02-01",
       "present": 0,
-      "description": "- Designed CSS templates for use in all pages on the website working with CSS Background, positioning, text, border, margin, padding, and table.\n- Applied optimization techniques to reduce page size and load times to enhance user experience using sprites.\n- Developed user interface by using the HTML, CSS, Jquery, Javascript and Wordpress."
+      "description": [
+        "Designed CSS templates for use in all pages on the website working with CSS Background, positioning, text, border, margin, padding, and table.",
+        "Applied optimization techniques to reduce page size and load times to enhance user experience using sprites.",
+        "Developed user interface by using the HTML, CSS, Jquery, Javascript and Wordpress."
+      ]
     },
     {
       "company": "Freelancer",
@@ -67,8 +94,7 @@
       "location": "Tehran, Iran",
       "time_start": "2008-08-01",
       "time_end": "2012-01-01",
-      "present": 0,
-      "description": ""
+      "present": 0
     }
   ],
   "educations": [
@@ -97,9 +123,10 @@
     "tools": ["Git", "Linux", "Jest"],
     "main": [
       "React",
+      "Nextjs",
       "Typescript",
       "Javascript",
-      "Nextjs",
+      "Shadcn",
       "Tailwind",
       "Zustand",
       "Webpack",
@@ -236,7 +263,7 @@
       "time_end": null,
       "website": "https://bimebazar.ir/landing/t45",
       "description": null,
-      "content": "\u0637\u0631\u0627\u062d\u06cc \u0648 \u0627\u062c\u0631\u0627\u06cc \u0644\u0646\u062f\u06cc\u0646\u06af \u067e\u06cc\u062c \u062a\u0639\u0627\u0648\u0646\u06cc \u06f4\u06f5 \u0628\u06cc\u0645\u0647 \u0628\u0627\u0632\u0627\u0631",
+      "content": "طراحی و اجرای لندینگ پیج تعاونی ۴۵ بیمه بازار",
       "attachments": {
         "photo": ["works/bimebazar-t45/screen1.png"]
       },
@@ -251,7 +278,7 @@
       "time_end": null,
       "website": "http://bimebazar.ir",
       "description": null,
-      "content": "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc \u0648 \u06a9\u062f\u0646\u0648\u06cc\u0633\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a \u0628\u06cc\u0645\u0647 \u0628\u0627\u0632\u0627\u0631\nhttps://bimebazar.ir",
+      "content": "طراحی رابط کاربری و کدنویسی وبسایت بیمه بازار\nhttps://bimebazar.ir",
       "attachments": {
         "photo": ["works/bimebazar/screen1.png", "works/bimebazar/screen2.png"]
       },
@@ -260,8 +287,8 @@
         "User Interface",
         "UI /UX",
         "UI Design",
-        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
-        "\u0628\u06cc\u0645\u0647 \u0628\u0627\u0632\u0627\u0631"
+        "طراحی رابط کاربری",
+        "بیمه بازار"
       ],
       "tools": ["Adobe Illustrator", "Visual Studio Code", "sketch"]
     },
@@ -288,12 +315,12 @@
         "User Interface",
         "Mobile Ui",
         "UI",
-        "\u0628\u0644\u06cc\u0637 \u0647\u0648\u0627\u067e\u06cc\u0645\u0627",
-        "\u067e\u0631\u0648\u0627\u0632",
-        "\u0627\u067e \u0645\u0648\u0628\u0627\u06cc\u0644",
-        "\u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644",
-        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
-        "\u06a9\u0627\u0646\u0633\u067e\u062a"
+        "بلیط هواپیما",
+        "پرواز",
+        "اپ موبایل",
+        "رابط کاربری موبایل",
+        "طراحی رابط کاربری",
+        "کانسپت"
       ],
       "tools": ["sketch"]
     },
@@ -305,19 +332,19 @@
       "time_end": null,
       "website": "http://irppt.com",
       "description": null,
-      "content": "\u06a9\u062f\u0646\u0648\u06cc\u0633\u06cc \u0648 \u0627\u062c\u0631\u0627\u06cc \u067e\u0631\u0648\u0698\u0647 \u0628\u0631 \u0631\u0648\u06cc \u0633\u06cc\u0633\u062a\u0645 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062d\u062a\u0648\u0627\u06cc \u0648\u0631\u062f\u067e\u0631\u0633.",
+      "content": "کدنویسی و اجرای پروژه بر روی سیستم مدیریت محتوای وردپرس.",
       "attachments": {
         "photo": ["works/irppt/screen1.png"]
       },
       "tags": [
-        "\u0648\u0627\u06a9\u0646\u0634 \u06af\u0631\u0627",
-        "\u0631\u06cc\u0633\u067e\u0627\u0646\u0633\u06cc\u0648",
-        "\u06af\u0631\u06cc\u062f",
-        "\u0641\u0631\u0648\u0634\u06af\u0627\u0647",
-        "\u0648\u0631\u062f\u067e\u0631\u0633",
-        "\u06a9\u062f \u0646\u0648\u06cc\u0633\u06cc",
-        "\u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
-        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628"
+        "واکنش گرا",
+        "ریسپانسیو",
+        "گرید",
+        "فروشگاه",
+        "وردپرس",
+        "کد نویسی",
+        "رابط کاربری",
+        "طراحی وب"
       ],
       "tools": ["Visual Studio Code", "Adobe Photoshop CC 2017"]
     },
@@ -329,7 +356,7 @@
       "time_end": null,
       "website": "",
       "description": null,
-      "content": "\u0637\u0631\u0627\u062d\u06cc \u062a\u06a9 \u0635\u0641\u062d\u0647 \u0627\u06cc\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a \u0641\u06cc\u0645\u0633.\u067e\u0631\u0648\u0698\u0647 \u06cc \u0627\u0633\u062a\u0627\u0631\u062a \u0622\u067e\u06cc",
+      "content": "طراحی تک صفحه ایی وبسایت فیمس.پروژه ی استارت آپی",
       "attachments": {
         "photo": ["works/famous/screen1.png"]
       },
@@ -337,8 +364,8 @@
         "Wordpress",
         "User Interface",
         "UI Design",
-        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
-        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628",
+        "طراحی رابط کاربری",
+        "طراحی وب",
         "jquery",
         "CSS3",
         "HTML5"
@@ -353,7 +380,7 @@
       "time_end": null,
       "website": "http://ilamchto.ir",
       "description": null,
-      "content": "\u0637\u0631\u0627\u062d\u06cc \u0627\u06cc\u0646\u062a\u0631\u0641\u06cc\u0633 \u0648\u0628\u0633\u0627\u06cc\u062a \u0627\u062f\u0627\u0631\u0647 \u06a9\u0644 \u0645\u06cc\u0631\u0627\u062b \u0641\u0631\u0647\u0646\u06af\u06cc , \u0635\u0646\u0627\u06cc\u0639 \u062f\u0633\u062a\u06cc \u06af\u0631\u062f\u0634\u06af\u0631\u06cc \u0627\u0633\u062a\u0627\u0646 \u0627\u06cc\u0644\u0627\u0645 \u0648 \u0627\u0646\u062a\u0642\u0627\u0644 \u06a9\u0627\u0645\u0644 \u0646\u0633\u062e\u0647 \u0642\u062f\u06cc\u0645\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a \u0627\u0632 \u062c\u0648\u0645\u0644\u0627 \u0628\u0647 \u0648\u0631\u062f\u067e\u0631\u0633.",
+      "content": "طراحی اینترفیس وبسایت اداره کل میراث فرهنگی , صنایع دستی گردشگری استان ایلام و انتقال کامل نسخه قدیمی وبسایت از جوملا به وردپرس.",
       "attachments": {
         "photo": ["works/ilamchto/screen1.png"]
       },
@@ -363,9 +390,9 @@
         "UI Design",
         "CSS3",
         "HTML5",
-        "\u0648\u0631\u062f\u067e\u0631\u0633",
-        "\u0637\u0631\u0627\u062d\u06cc \u0631\u0627\u0628\u0637 \u06a9\u0627\u0631\u0628\u0631\u06cc",
-        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628\u0633\u0627\u06cc\u062a"
+        "وردپرس",
+        "طراحی رابط کاربری",
+        "طراحی وبسایت"
       ],
       "tools": ["Adobe Photoshop", "Sublime Text"]
     },
@@ -391,7 +418,7 @@
         "Wordpress",
         "UI"
       ],
-      "tools": ["Sublime Text", "\u0641\u062a\u0648\u0634\u0627\u067e"]
+      "tools": ["Sublime Text", "فتوشاپ"]
     },
     {
       "title": "Bebinin magazine website",
@@ -401,7 +428,7 @@
       "time_end": null,
       "website": "",
       "description": null,
-      "content": "\u0637\u0631\u0627\u062d\u06cc \u0645\u062c\u0644\u0647\u200c\u06cc \u0627\u06cc\u0646\u062a\u0631\u0646\u062a\u06cc \u0628\u0628\u06cc\u0646\u06cc\u0646 \u062f\u0631 \u0633\u0627\u0644 1392",
+      "content": "طراحی مجله‌ی اینترنتی ببینین در سال 1392",
       "attachments": {
         "photo": ["works/bebinin/screen1.jpg"]
       },
@@ -423,7 +450,7 @@
       "time_end": null,
       "website": "",
       "description": null,
-      "content": "\u0645\u062c\u0644\u0647 \u06cc \u0627\u06cc\u0646\u062a\u0631\u0646\u062a\u06cc \u06a9\u0646\u062f\u06cc",
+      "content": "مجله ی اینترنتی کندی",
       "attachments": {
         "photo": ["works/kandi-mag/sreen1.jpg"]
       },
@@ -438,7 +465,7 @@
       "time_end": null,
       "website": "",
       "description": null,
-      "content": "\u0648\u0628\u0633\u0627\u06cc\u062a \u062c\u0627\u0646\u0627\u0646\u0647 \u0633\u0627\u0644 1392",
+      "content": "وبسایت جانانه سال 1392",
       "attachments": {
         "photo": ["works/jananeh-mag/thumbnail.jpg"]
       },
@@ -448,8 +475,8 @@
         "CSS3",
         "css",
         "html",
-        "\u0637\u0631\u0627\u062d\u06cc \u06af\u0631\u0627\u0641\u06cc\u06a9",
-        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628 \u0633\u0627\u0644\u062a"
+        "طراحی گرافیک",
+        "طراحی وب سالت"
       ],
       "tools": ["ColorSchemer Studio", "Sublime Text", "Adobe Photoshop"]
     },
@@ -461,7 +488,7 @@
       "time_end": null,
       "website": "",
       "description": null,
-      "content": "\u0627\u06cc\u0646 \u0637\u0631\u0627\u062d\u06cc \u0633\u0627\u0644 1392 \u0627\u0646\u062c\u0627\u0645 \u0634\u062f\u0647 \u0648 \u0628\u0627 \u0628\u0631\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062d\u062a\u0648\u0627\u06cc \u0648\u0631\u062f\u067e\u0631\u0633 \u0637\u0631\u0627\u062d\u06cc \u0634\u062f\u0647 \u0627\u0633\u062a.",
+      "content": "این طراحی سال 1392 انجام شده و با برای سیستم مدیریت محتوای وردپرس طراحی شده است.",
       "attachments": {
         "photo": ["works/tehran98-mag/screen1.jpg"]
       },
@@ -471,9 +498,9 @@
         "User Interface",
         "UX",
         "UI",
-        "\u0637\u0631\u0627\u062d\u06cc \u0642\u0627\u0644\u0628 \u0648\u0631\u062f\u067e\u0631\u0633",
-        "\u0648\u0631\u062f\u067e\u0631\u0633",
-        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628"
+        "طراحی قالب وردپرس",
+        "وردپرس",
+        "طراحی وب"
       ],
       "tools": []
     },
@@ -485,7 +512,7 @@
       "time_end": null,
       "website": "",
       "description": null,
-      "content": "\u0648\u0628\u0633\u0627\u06cc\u062a \u062c\u0646\u0627\u0628 \u0645\u0633\u0644\u0645 \u0645\u062d\u0645\u062f\u06cc\u0627\u0646 \u0627\u0632 \u0646\u0627\u0645\u0632\u062f \u0647\u0627\u06cc \u0628\u0631\u062c\u0633\u062a\u0647 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0645\u062c\u0644\u0633 \u0633\u0627\u0644 1390",
+      "content": "وبسایت جناب مسلم محمدیان از نامزد های برجسته انتخابات مجلس سال 1390",
       "attachments": {
         "photo": ["works/mmuh-website/screen1.jpg"]
       },
@@ -500,7 +527,7 @@
       "time_end": null,
       "website": "http://svahdati.com",
       "description": null,
-      "content": "\u0637\u0631\u0627\u062d\u06cc \u0628\u0631\u0627\u06cc \u0633\u0627\u0644 1390 \u0645\u06cc\u0628\u0627\u0634\u062f",
+      "content": "طراحی برای سال 1390 میباشد",
       "attachments": {
         "photo": ["works/svahdati/screen1.jpg"]
       },
@@ -510,7 +537,7 @@
         "CSS3",
         "HTML5",
         "Wordpress",
-        "\u0637\u0631\u0627\u062d\u06cc \u0648\u0628"
+        "طراحی وب"
       ],
       "tools": []
     }

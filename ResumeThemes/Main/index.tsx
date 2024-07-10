@@ -2,7 +2,7 @@ import { useMantineColorScheme } from "@mantine/core";
 import Educations from "./Educations";
 import Experiences from "./Experiences";
 import Head from "./Head";
-import { StyledCard, StyledContainer } from "./Main.styled";
+import { Divider, StyledCard, StyledContainer } from "./Main.styled";
 import Skills from "./Skills";
 
 const Main = () => {
@@ -13,6 +13,7 @@ const Main = () => {
         <Head />
         <Experiences />
         <Skills />
+        <Divider />
         <Educations />
         {/* <Portfolio /> */}
         {/* <Contact /> */}

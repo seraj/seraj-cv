@@ -1,13 +1,13 @@
-import React, { useState } from "react";
 import {
-  createStyles,
-  Header,
   Container,
+  createStyles,
   Group,
+  Header,
   useMantineColorScheme,
 } from "@mantine/core";
+import { useState } from "react";
 
-import { ToggleDarkMode, Github } from "../index";
+import { Github, ToggleDarkMode } from "../index";
 const useStyles = createStyles((theme) => ({
   root: {
     backgroundColor: "#1A1B1E",
@@ -71,7 +71,7 @@ const ResumeHeader = () => {
   const { colorScheme } = useMantineColorScheme();
   const links = [
     {
-      link: `pdf/${colorScheme}/SerajVahdati-Resume.pdf`,
+      link: `pdf/light/SerajVahdati-Resume.pdf`,
       label: "Download PDF",
     },
   ];

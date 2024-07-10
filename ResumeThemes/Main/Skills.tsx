@@ -1,6 +1,6 @@
 import { skills } from "@data";
 
-import { StyledDataProvider, StyledSkills, StyledItems } from "./Main.styled";
+import { StyledDataProvider, StyledItems, StyledSkills } from "./Main.styled";
 import Title from "./Title";
 
 const Skills = () => {
@@ -13,7 +13,6 @@ const Skills = () => {
         title="Knowledgeable Languages & Frameworks"
         data={skills.others}
       />
-      <Items title="Tools" data={skills.tools} />
       <Items title="Bilingual" data={skills.language} />
     </StyledSkills>
   );
