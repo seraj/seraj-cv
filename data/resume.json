@@ -2,6 +2,10 @@
   "profile": {
     "firstname": "Seraj",
     "lastname": "Vahdati",
+    "links": [
+      { "type": "github", "url": "https://github.com/seraj" },
+      { "type": "linkedin", "url": "https://linkedin.com/in/svahdati" }
+    ],
     "propic": "profilePic.jpg",
     "summary": "I'm a passionate software developer with experience across the stack and always keen to try all the shiny new little things the web has to offer. Service workers, composite workers, and everything that works mostly behind a flag. I loves 60fps web interfaces, frontend automation, and offline-first web apps. My expertise includes Javascript, HTML, and CSS. I'm excited to leverage the latest technologies to build powerful and performant applications.\nThe most recent applications I've worked on utilize frameworks such as React with Redux, and Meteor with React to create modular and performant single-page applications.",
     "bio": "Senior Frontend Engineer",
@@ -543,7 +547,7 @@
     }
   ],
   "contacts": {
-    "tel": "+989120535594",
+    "tel": { "number": "+989120535594", "text": "(+98) 912 053 5594" },
     "email": "svahdati71@gmail.com",
     "website": "http://seraj.me",
     "location": "Tehran, Iran",

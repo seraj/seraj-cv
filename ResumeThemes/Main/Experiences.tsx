@@ -1,6 +1,6 @@
 import { works } from "@data";
 import { format } from "date-fns";
-import { Divider, StyledCompany } from "./Main.styled";
+import { StyledCompany } from "./Main.styled";
 import Title from "./Title";
 
 const Experiences = () => {
@@ -36,7 +36,7 @@ const Experiences = () => {
               })}
             </div>
           )}
-          <Divider />
+          {/* <Divider /> */}
         </StyledCompany>
       ))}
     </>

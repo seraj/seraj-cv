@@ -1,12 +1,10 @@
 import { skills } from "@data";
 
 import { StyledDataProvider, StyledItems, StyledSkills } from "./Main.styled";
-import Title from "./Title";
 
 const Skills = () => {
   return (
     <StyledSkills>
-      <Title title="Skills" />
       <Items title="Proficient Languages & Frameworks" data={skills.main} />
 
       <Items

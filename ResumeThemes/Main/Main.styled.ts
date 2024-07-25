@@ -142,6 +142,9 @@ export const StyledHead = styled.div`
         // }
       }
     }
+    &-summary {
+      margin: 0;
+    }
     &-bio {
       font-weight: bold;
     }
@@ -181,7 +184,7 @@ export const StyledDataProvider = styled.div<FlexType>`
   flex-direction: ${(props) => (props.direction === "row" ? "row" : "column")};
   gap: ${columnGap};
   h3 {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 800;
     margin: 0;
   }
