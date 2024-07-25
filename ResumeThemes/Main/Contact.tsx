@@ -12,7 +12,7 @@ const Contact = () => {
         <li>
           <div className="title">Mobile:</div>
           <div className="details">
-            <a href={`tel:${contacts.tel}`}>{contacts.tel}</a>
+            <a href={`tel:${contacts.tel.number}`}>{contacts.tel.text}</a>
           </div>
         </li>
         <li>
