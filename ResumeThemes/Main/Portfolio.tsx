@@ -1,6 +1,6 @@
-import { portfolio } from "@data";
-import { Grid, Image } from "@mantine/core";
-import { StyledPortfolio, StyledItems } from "./Main.styled";
+import { Image } from "@mantine/core";
+import { portfolio } from "data/resume";
+import { StyledItems, StyledPortfolio } from "./Main.styled";
 import Title from "./Title";
 const Portfolio = () => {
   return (

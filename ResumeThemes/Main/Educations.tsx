@@ -1,4 +1,4 @@
-import { educations } from "@data";
+import { educations } from "data/resume";
 import { format } from "date-fns";
 import {
   StyledDataProvider,

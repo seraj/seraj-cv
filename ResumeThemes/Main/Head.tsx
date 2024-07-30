@@ -1,5 +1,5 @@
 import Icon from "@components/Icon";
-import { contacts, profile } from "@data";
+import { contacts, profile } from "data/resume";
 import { StyledHead } from "./Main.styled";
 
 const Head = () => {
@@ -36,16 +36,7 @@ const Head = () => {
       </div>
 
       {/* <div className="profile-bio">{profile.bio}</div> */}
-      <p className="profile-summary">
-        {profile.summary.split("\n").map(function (item, idx) {
-          return (
-            <span key={idx}>
-              {item}
-              <br />
-            </span>
-          );
-        })}
-      </p>
+      <div className="profile-summary">{profile.summary}</div>
     </StyledHead>
   );
 };

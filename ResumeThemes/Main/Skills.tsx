@@ -1,4 +1,4 @@
-import { skills } from "@data";
+import { skills } from "data/resume";
 
 import { StyledDataProvider, StyledItems, StyledSkills } from "./Main.styled";
 
@@ -11,7 +11,7 @@ const Skills = () => {
         title="Knowledgeable Languages & Frameworks"
         data={skills.others}
       />
-      <Items title="Bilingual" data={skills.language} />
+      {/* <Items title="Bilingual" data={skills.language} /> */}
     </StyledSkills>
   );
 };

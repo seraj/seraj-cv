@@ -1,4 +1,4 @@
-import { contacts } from "@data";
+import { contacts } from "data/resume";
 import { StyledContact } from "./Main.styled";
 
 const Contact = () => {

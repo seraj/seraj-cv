@@ -1,4 +1,4 @@
-import { works } from "@data";
+import { works } from "data/resume";
 import { format } from "date-fns";
 import { StyledCompany } from "./Main.styled";
 import Title from "./Title";
@@ -30,9 +30,7 @@ const Experiences = () => {
           {work?.description && (
             <div className="company-desc">
               {work.description.map(function (item, index) {
-                return (
-                  <h4 key={index} dangerouslySetInnerHTML={{ __html: item }} />
-                );
+                return <h4 key={index}>{item}</h4>;
               })}
             </div>
           )}
