@@ -20,7 +20,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   line-height: 1.9em;
   font-size: ${fontSize};
-  padding: 30px 50px;
+  padding: 30px 40px;
   a {
     /* color: ${(props) => props.theme.colors.primary}; */
   }
@@ -42,39 +42,27 @@ export const StyledCompany = styled.div`
   .company {
     &-head {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      > div {
-        display: flex;
-        gap: 10px;
-      }
-      h3 {
-        font-size: 1rem;
-        font-weight: 800;
-        margin: 0;
-      }
-      .company-location {
-        font-size: 0.9em;
-        font-weight: 400;
-      }
-      .company-date {
-        font-size: 0.95em;
-        font-weight: 400;
+      font-weight: 600;
+      font-size: 0.9em;
+      .divider {
+        width: 1px;
+        height: 15px;
+        background-color: #eee;
+        margin: 0 10px;
       }
     }
-    &-desc {
-      display: flex;
-      gap: 2px;
-      flex-direction: column;
-      h4 {
-        font-size: 0.88em;
-        margin: 0;
-        font-weight: normal;
-        position: relative;
-        &:before {
-          content: "- ";
-        }
-      }
+    &-location,
+    &-date {
+      font-size: 0.9em;
+    }
+  }
+  ul {
+    margin-left: 50px;
+    li {
+      list-style-type: disc;
+      font-size: 0.88em;
+      font-weight: normal;
     }
   }
 `;
@@ -127,19 +115,6 @@ export const StyledHead = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        // span {
-        //   position: relative;
-
-        //   &:not(:last-child):after {
-        //     position: absolute;
-        //     right: -10px;
-        //     top: 7px;
-        //     content: "";
-        //     background-color: #aaa;
-        //     width: 1px;
-        //     height: 15px;
-        //   }
-        // }
       }
     }
     &-summary {
@@ -219,11 +194,10 @@ export const StyledPortfolio = styled.div`
 `;
 
 export const StyledSkills = styled.div`
+  margin-top: 5px;
   ${StyledItems} {
-    flex-wrap: wrap;
     h3 {
-      font-size: 0.88em;
-      font-weight: normal;
+      font-weight: 500;
     }
   }
 `;
@@ -232,5 +206,5 @@ export const StyledTitle = styled.h2`
   margin: 0;
   margin-bottom: ${columnGap};
   font-size: 1.2rem;
-  color: ${({ theme }) => theme.colors.primary};
+  /* color: ${(props) => props.theme.colors.primary}; */
 `;

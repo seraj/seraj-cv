@@ -1,7 +1,7 @@
 const data = {
   profile: {
     firstname: "Seraj",
-    lastname: "Vahdati",
+    lastname: " Vahdati",
     links: [
       { type: "github", url: "https://github.com/seraj" },
       { type: "linkedin", url: "https://linkedin.com/in/svahdati" },
@@ -9,25 +9,30 @@ const data = {
     propic: "profilePic.jpg",
     summary: (
       <>
-        I&apos;m a passionate software developer with experience across the
-        stack and always keen to try all the shiny new little things the web has
-        to offer. Service workers, composite workers, and everything that works
-        mostly behind a flag. I loves 60fps web interfaces, frontend automation,
-        and offline-first web apps. My expertise includes Javascript, HTML, and
-        CSS. I&apos;m excited to leverage the latest technologies to build
-        powerful and performant applications. <br />
-        The most recent applications I&apos;ve worked on utilize frameworks such
-        as React with Redux, and Meteor with React to create modular and
-        performant single-page applications.
+        I&apos;m a passionate Senior Front End Engineer with extensive
+        experience in building high-performance web applications. I specialize
+        in React, Next.js, and TypeScript, and I love working with the latest
+        web technologies. My journey includes enhancing user experiences and
+        optimizing applications for companies like Setflow, Goki, and Omid
+        Analyzer. With a strong foundation in JavaScript, HTML, and CSS,
+        I&apos;ve led teams, conducted numerous code reviews, and implemented
+        innovative solutions that drive performance and usability. Always eager
+        to learn and grow, I&apos;m excited to continue pushing the boundaries
+        of web development.
       </>
     ),
-    bio: "Senior Frontend Engineer",
+    bio: (
+      <>
+        Senior <b>Front end Engineer</b>
+      </>
+    ),
     username: "seraj",
   },
   works: [
     {
       company: "Setflow",
-      isRemote: true,
+      link: "https://setflow.io",
+      location: "Italy, Milan (Remote)",
       title: "Senior Front End Engineer",
       time_start: "2023-07-01",
       present: 1,
@@ -42,7 +47,8 @@ const data = {
     },
     {
       company: "Goki",
-      isRemote: true,
+      link: "https://goki.travel",
+      location: "Australia, Sydney (Remote)",
       title: "Senior Front End Engineer",
       time_start: "2022-06-22",
       time_end: "2023-07-01",
@@ -59,6 +65,7 @@ const data = {
     },
     {
       company: "Omid Analyzer",
+      link: "https://omid.ir",
       title: "Senior Front End Engineer",
       location: "Tehran, Iran",
       time_start: "2020-03-01",
@@ -73,7 +80,7 @@ const data = {
     },
     {
       company: "LogicKit",
-      isRemote: true,
+      location: "USA, Los Angeles (Remote)",
       title: "Lead Front End Developer",
       time_start: "2018-11-01",
       time_end: "2020-04-01",
@@ -91,6 +98,7 @@ const data = {
     },
     {
       company: "Bimebazar",
+      link: "https://bimebazar.com",
       title: "Front End Developer",
       location: "Tehran, Iran",
       time_start: "2016-05-01",
@@ -107,6 +115,7 @@ const data = {
     },
     {
       company: "Karina Mobile Solutions",
+      link: "https://www.linkedin.com/company/karina-mobile-solutions/",
       title: "Front End Developer & User Interface Designer",
       location: "Tehran, Iran",
       time_start: "2012-01-01",

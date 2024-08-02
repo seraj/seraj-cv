@@ -9,7 +9,7 @@ const Head = () => {
         <div>
           <h1>
             {profile.firstname}
-            <span> {profile.lastname}</span>
+            <span>{profile.lastname}</span>
           </h1>
           <h2>{profile.bio}</h2>
           <div>
@@ -34,8 +34,6 @@ const Head = () => {
           </span>
         </div>
       </div>
-
-      {/* <div className="profile-bio">{profile.bio}</div> */}
       <div className="profile-summary">{profile.summary}</div>
     </StyledHead>
   );
