@@ -5,13 +5,12 @@ import { StyledDataProvider, StyledItems, StyledSkills } from "./Main.styled";
 const Skills = () => {
   return (
     <StyledSkills>
-      <Items title="Proficient Languages & Frameworks" data={skills.main} />
-
-      <Items
-        title="Knowledgeable Languages & Frameworks"
-        data={skills.others}
-      />
-      {/* <Items title="Bilingual" data={skills.language} /> */}
+      <Items title="Frontend Frameworks & Libraries" data={skills.main} />
+      <Items title="Testing & Quality Assurance" data={skills.testing} />
+      <Items title="Styling & UI Libraries" data={skills.styling} />
+      <Items title="Development Tools" data={skills.tools} />
+      <Items title="Backend & Database" data={skills.backend} />
+      <Items title="Languages" data={skills.language} />
     </StyledSkills>
   );
 };

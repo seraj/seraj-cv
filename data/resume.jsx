@@ -9,39 +9,63 @@ const data = {
     propic: "profilePic.jpg",
     summary: (
       <>
-        I&apos;m a passionate Senior Front End Engineer with extensive
-        experience in building high-performance web applications. I specialize
-        in React, Next.js, and TypeScript, and I love working with the latest
-        web technologies. My journey includes enhancing user experiences and
-        optimizing applications for companies like Setflow, Goki, and Omid
-        Analyzer. With a strong foundation in JavaScript, HTML, and CSS,
-        I&apos;ve led teams, conducted numerous code reviews, and implemented
-        innovative solutions that drive performance and usability. Always eager
-        to learn and grow, I&apos;m excited to continue pushing the boundaries
-        of web development.
+        Senior Front End Engineer with 12+ years of experience building scalable
+        web applications that serve millions of users. Expert in React, Next.js,
+        and TypeScript, with a proven track record of delivering 35%+
+        performance improvements and leading cross-functional teams.
+        Successfully architected and implemented solutions at WebcentriQ,
+        Setflow, Goki, and Omid Analyzer, with extensive experience in test
+        automation, design systems, and modern web optimization techniques.
       </>
     ),
     bio: (
       <>
-        Senior <b>Front end Engineer</b>
+        Senior <b>Front End Engineer</b>
       </>
     ),
     username: "seraj",
   },
   works: [
     {
+      company: "WebcentriQ",
+      link: "https://webcentriq.com/",
+      location: "United States (Remote)",
+      title: "Senior Front End Engineer",
+      time_start: "2024-09-01",
+      present: 1,
+      description: [
+        "Architected and implemented project structure for company projects, establishing best practices and scalable architecture for long-term maintainability.",
+        <>
+          Developed <b>scaleward.ai</b> platform using <b>Next.js</b>, Tailwind
+          CSS, and <b>shadcn/ui</b>, delivering a modern and responsive user
+          experience.
+        </>,
+        <>
+          Implemented comprehensive end-to-end testing suite for Scaleward using{" "}
+          <b>Playwright</b>, ensuring robust test coverage and improved code
+          quality.
+        </>,
+        "Optimized application performance through code splitting, lazy loading, and bundle optimization, improving load times significantly.",
+        "Led knowledge-sharing sessions on Cursor AI, modern development workflows, and front-end testing best practices with the development team.",
+      ],
+    },
+    {
       company: "Setflow",
       link: "https://setflow.io",
       location: "Italy, Milan (Remote)",
       title: "Senior Front End Engineer",
       time_start: "2023-07-01",
-      present: 1,
+      time_end: "2024-09-01",
+      present: 0,
       description: [
-        <>Implemented Authentication, resulting in a 15% performance boost.</>,
-        "Implemented Annotation and Map components to elevate user interaction and functionality.",
         <>
-          Developed new features using <b>Nextjs</b>, Typescript, and{" "}
-          <b>shadcn</b>.
+          Architected and implemented authentication system, resulting in a 15%
+          improvement in application load time and enhanced security.
+        </>,
+        "Developed advanced Annotation and Map components with real-time collaboration features, enhancing user interaction and workflow efficiency.",
+        <>
+          Engineered new features using <b>Next.js</b>, TypeScript, and{" "}
+          <b>shadcn/ui</b>, following modern design patterns and best practices.
         </>,
       ],
     },
@@ -54,13 +78,14 @@ const data = {
       time_end: "2023-07-01",
       present: 0,
       description: [
-        "Develop new features using reactjs, typescript, styled-components and antd.",
+        "Developed and shipped new features using React.js, TypeScript, styled-components, and Ant Design, improving user experience and platform capabilities.",
         <>
-          Improve the API logic by implementing <b>UAC</b> (Universal Api
-          Consumer)
+          Optimized API integration logic by implementing{" "}
+          <b>Universal API Consumer (UAC)</b>, reducing code duplication and
+          improving maintainability.
         </>,
-        "Rewrote existing codebase to improve maintainability and readability.",
-        "Conducted 100+ code reviews, maintaining a 95% adherence to coding standards.",
+        "Refactored legacy codebase to modern React patterns, improving code maintainability, readability, and team velocity.",
+        "Conducted 100+ code reviews, maintaining 95% adherence to coding standards and mentoring junior developers.",
       ],
     },
     {
@@ -72,10 +97,10 @@ const data = {
       time_end: "2022-06-22",
       present: 0,
       description: [
-        "Develop, Redesign, maintaining, and improving all front-end products using Reactjs, Typescript, Redux, Webpack, and ES6.",
-        "Developed a Design System, improving DX and reducing the development cost by 20%.",
-        "improve the culture of Git Flow, Component structure, and clean code strategy.",
-        "Redesign the product using sketch.",
+        "Led development, redesign, and maintenance of all front-end products using React.js, TypeScript, Redux, Webpack, and ES6, serving thousands of daily users.",
+        "Built a comprehensive Design System from scratch, improving developer experience and reducing development costs by 20%.",
+        "Established and championed Git Flow best practices, component architecture standards, and clean code principles across the team.",
+        "Led product redesign initiative using Sketch, improving user satisfaction and interface consistency.",
       ],
     },
     {
@@ -86,14 +111,15 @@ const data = {
       time_end: "2020-04-01",
       present: 0,
       description: [
-        "Managed a team of 3 Front End Developers.",
-        "Led the efforts to rewrite the new website resulting in a 35% sales improvement.",
+        "Managed and mentored a team of 3 Front End Developers, establishing code standards and conducting regular code reviews.",
+        "Led complete website rewrite initiative, resulting in a 35% increase in sales conversion and improved user engagement.",
         <>
-          Building and maintaining UI KIT package library with React,{" "}
-          <b>TypeScript</b> and <b>Styled-Components</b>.
+          Architected and maintained UI KIT package library with React,{" "}
+          <b>TypeScript</b>, and <b>Styled-Components</b>, enabling consistent
+          design across products.
         </>,
-        "Maintain state using Apollo and Redux for complex user interfaces",
-        "Change the building Process from RCA to custom webpack build config.",
+        "Implemented robust state management using Apollo GraphQL and Redux for complex, data-driven user interfaces.",
+        "Optimized build pipeline by migrating from Create React App to custom Webpack configuration, reducing bundle size and build times.",
       ],
     },
     {
@@ -106,11 +132,12 @@ const data = {
       present: 0,
       description: [
         <>
-          <b>Migrate</b> the project from pure HTML, CSS, and jQuery to React,{" "}
-          <b>Redux</b>, and Webpack, with a 50% performance boost
+          <b>Led complete migration</b> from legacy HTML, CSS, and jQuery
+          codebase to modern React, <b>Redux</b>, and Webpack stack, achieving a
+          50% performance improvement.
         </>,
-        "Optimized website Web Vitals, including LCP and CLS, resulting in a 40% improvement.",
-        "Redesign the product using sketch.",
+        "Optimized Core Web Vitals metrics including LCP and CLS, resulting in a 40% improvement in user experience scores.",
+        "Led product redesign initiative using Sketch, modernizing the user interface and improving conversion rates.",
       ],
     },
     {
@@ -122,9 +149,9 @@ const data = {
       time_end: "2014-02-01",
       present: 0,
       description: [
-        "Designed CSS templates for use in all pages on the website working with CSS Background, positioning, text, border, margin, padding, and table.",
-        "Applied optimization techniques to reduce page size and load times to enhance user experience using sprites.",
-        "Developed user interface by using the HTML, CSS, Jquery, Javascript and Wordpress.",
+        "Designed CSS templates for use across all website pages, working with CSS backgrounds, positioning, text, borders, margins, padding, and tables.",
+        "Applied optimization techniques to reduce page size and load times, enhancing user experience using sprites.",
+        "Developed user interfaces using HTML, CSS, jQuery, JavaScript, and WordPress.",
       ],
     },
     {
@@ -144,7 +171,7 @@ const data = {
       present: 0,
       location: "Ilam, Iran",
       degree: "Bachelor",
-      field: "Software Engineer",
+      field: "Software Engineering",
       description: "",
     },
     {
@@ -154,26 +181,37 @@ const data = {
       present: 0,
       location: "Qazvin, Iran",
       degree: "Associate Degree",
-      field: "Software Engineer",
+      field: "Software Engineering",
       description: "",
     },
   ],
   skills: {
-    tools: ["Git", "Linux", "Jest"],
     main: [
       "React",
-      "Nextjs",
-      "Typescript",
-      "Javascript",
-      "Shadcn",
-      "Tailwind",
-      "Zustand",
-      "Webpack",
-      "GraphQL",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
       "Redux",
+      "Zustand",
+      "GraphQL",
     ],
-    others: ["Python", "PHP", "SQL", "Django", "NodeJs", "ExpressJs"],
-    language: ["Persian", "English", "Kurdish"],
+    testing: ["Playwright", "Cypress", "Jest"],
+    styling: ["Tailwind CSS", "shadcn/ui", "Styled-Components"],
+    tools: ["Git", "Webpack", "Linux"],
+    backend: [
+      "Node.js",
+      "NestJs",
+      "Express.js",
+      "Python",
+      "Django",
+      "PHP",
+      "SQL",
+    ],
+    language: [
+      "English (Professional)",
+      "Persian (Native)",
+      "Kurdish (Native)",
+    ],
   },
   portfolio: [
     {
@@ -437,153 +475,6 @@ const data = {
       ],
       tools: ["Adobe Photoshop", "Sublime Text"],
     },
-    {
-      title: "Decoration UI",
-      thumb: "works/decore-ui/thumbnail.jpg",
-      present: 0,
-      time_start: "2014-12-01",
-      time_end: null,
-      website: "",
-      description: null,
-      content: " \n",
-      attachments: {
-        photo: ["works/decore-ui/screen1.png"],
-      },
-      tags: [
-        "seraj",
-        "svahdati",
-        "jquery",
-        "css",
-        "html",
-        "UX",
-        "Wordpress",
-        "UI",
-      ],
-      tools: ["Sublime Text", "فتوشاپ"],
-    },
-    {
-      title: "Bebinin magazine website",
-      thumb: "works/bebinin/thumbnail.jpg",
-      present: 0,
-      time_start: "2013-03-01",
-      time_end: null,
-      website: "",
-      description: null,
-      content: "طراحی مجله‌ی اینترنتی ببینین در سال 1392",
-      attachments: {
-        photo: ["works/bebinin/screen1.jpg"],
-      },
-      tags: [
-        "Web Design",
-        "UI /UX",
-        "UX Design",
-        "UI Design",
-        "Wordpress theme",
-        "Magazine",
-      ],
-      tools: [],
-    },
-    {
-      title: "Kandi magazine website",
-      thumb: "works/kandi-mag/thumbnail.jpg",
-      present: 0,
-      time_start: "2014-09-01",
-      time_end: null,
-      website: "",
-      description: null,
-      content: "مجله ی اینترنتی کندی",
-      attachments: {
-        photo: ["works/kandi-mag/sreen1.jpg"],
-      },
-      tags: ["User Interface", "Wordpress", "CSS3", "HTML5"],
-      tools: ["ColorSchemer Studio", "Sublime Text", "Adobe Photoshop"],
-    },
-    {
-      title: "Jananeh website",
-      thumb: "works/jananeh-mag/thumbnail.jpg",
-      present: 0,
-      time_start: "2013-04-01",
-      time_end: null,
-      website: "",
-      description: null,
-      content: "وبسایت جانانه سال 1392",
-      attachments: {
-        photo: ["works/jananeh-mag/thumbnail.jpg"],
-      },
-      tags: [
-        "Wordpress",
-        "responsive",
-        "CSS3",
-        "css",
-        "html",
-        "طراحی گرافیک",
-        "طراحی وب سالت",
-      ],
-      tools: ["ColorSchemer Studio", "Sublime Text", "Adobe Photoshop"],
-    },
-    {
-      title: "Tehran98 magazine website",
-      thumb: "works/tehran98-mag/thumbnail.jpg",
-      present: 0,
-      time_start: "2013-06-01",
-      time_end: null,
-      website: "",
-      description: null,
-      content:
-        "این طراحی سال 1392 انجام شده و با برای سیستم مدیریت محتوای وردپرس طراحی شده است.",
-      attachments: {
-        photo: ["works/tehran98-mag/screen1.jpg"],
-      },
-      tags: [
-        "Magazine",
-        "tehran98",
-        "User Interface",
-        "UX",
-        "UI",
-        "طراحی قالب وردپرس",
-        "وردپرس",
-        "طراحی وب",
-      ],
-      tools: [],
-    },
-    {
-      title: "Moslom Mohammadian's Website",
-      thumb: "works/mmuh-website/thumbnail.jpg",
-      present: 0,
-      time_start: "2011-10-23",
-      time_end: null,
-      website: "",
-      description: null,
-      content:
-        "وبسایت جناب مسلم محمدیان از نامزد های برجسته انتخابات مجلس سال 1390",
-      attachments: {
-        photo: ["works/mmuh-website/screen1.jpg"],
-      },
-      tags: ["Wordpress theme", "CSS3", "html", "UI Design"],
-      tools: ["Adobe Photoshop", "Sublime Text"],
-    },
-    {
-      title: "My Portfolio",
-      thumb: "works/svahdati/thumbnail.jpg",
-      present: 0,
-      time_start: "2011-09-01",
-      time_end: null,
-      website: "http://svahdati.com",
-      description: null,
-      content: "طراحی برای سال 1390 میباشد",
-      attachments: {
-        photo: ["works/svahdati/screen1.jpg"],
-      },
-      tags: [
-        "UX Design",
-        "UI Design",
-        "CSS3",
-        "HTML5",
-        "Wordpress",
-        "طراحی وب",
-      ],
-      tools: [],
-    },
   ],
   contacts: {
     tel: { number: "+989120535594", text: "(+98) 912 053 5594" },
@@ -592,10 +483,32 @@ const data = {
     location: "Tehran, Iran",
     linkedin: "linkedin.com/in/svahdati",
   },
-  achievements: [],
+  achievements: [
+    "Led complete migration from legacy stack to React, achieving 50% performance improvement at Bimebazar",
+    "Conducted 100+ code reviews with 95% coding standard adherence at Goki",
+    "Developed Design System from scratch, reducing development costs by 20% at Omid Analyzer",
+    "Led website rewrite resulting in 35% increase in sales conversion at LogicKit",
+    "Architected and implemented comprehensive testing suite using Playwright at WebcentriQ",
+  ],
   custom_data: [],
 };
 
-const { profile, works, educations, skills, portfolio, contacts } = data;
+const {
+  profile,
+  works,
+  educations,
+  skills,
+  portfolio,
+  contacts,
+  achievements,
+} = data;
 
-export { contacts, educations, portfolio, profile, skills, works };
+export {
+  achievements,
+  contacts,
+  educations,
+  portfolio,
+  profile,
+  skills,
+  works,
+};

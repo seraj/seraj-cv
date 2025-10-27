@@ -7,6 +7,7 @@ import {
 } from "@mantine/core";
 import { useState } from "react";
 
+import { downloadResumePdf } from "../../utils/downloadResumePdf";
 import { Github, ToggleDarkMode } from "../index";
 const useStyles = createStyles((theme) => ({
   root: {
@@ -81,16 +82,14 @@ const ResumeHeader = () => {
   const items = links.map((link) => (
     <a
       key={link.label}
-      href={link.link}
-      download
+      href="#"
       className={cx(classes.link, {
         [classes.linkActive]: active === link.link,
       })}
-      // onClick={(event) => {
-      //   event.preventDefault();
-      //   // generatePDF();
-      //   setActive(link.link);
-      // }}
+      onClick={(event) => {
+        event.preventDefault();
+        downloadResumePdf("SerajVahdati-Resume.pdf");
+      }}
     >
       {link.label}
     </a>
