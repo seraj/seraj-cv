@@ -29,11 +29,11 @@ export const downloadResumePdf = async (
 
     // Convert the HTML element to canvas
     const canvas = await html2canvas(resumeContainer, {
-      scale: 2, // Higher scale for better quality
-      useCORS: true, // Enable CORS for images
+      scale: 1.5,
+      useCORS: true,
       logging: false,
       allowTaint: true,
-      backgroundColor: null,
+      backgroundColor: "#ffffff",
       scrollY: -window.scrollY,
       scrollX: -window.scrollX,
       width: resumeContainer.scrollWidth,
@@ -55,21 +55,21 @@ export const downloadResumePdf = async (
       format: "a4",
     });
 
-    // Convert canvas to image
-    const imgData = canvas.toDataURL("image/png");
+    // Convert canvas to JPEG for much smaller file size
+    const imgData = canvas.toDataURL("image/jpeg", 0.85);
 
     let heightLeft = imgHeight;
     let position = 0;
 
     // Add first page
-    pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+    pdf.addImage(imgData, "JPEG", 0, position, imgWidth, imgHeight, undefined, "FAST");
     heightLeft -= a4Height;
 
     // Add additional pages if content is longer than one page
     while (heightLeft > 0) {
       position = heightLeft - imgHeight;
       pdf.addPage();
-      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+      pdf.addImage(imgData, "JPEG", 0, position, imgWidth, imgHeight, undefined, "FAST");
       heightLeft -= a4Height;
     }
 

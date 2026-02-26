@@ -36,17 +36,38 @@ const data = {
       description: [
         "Architected and implemented project structure for company projects, establishing best practices and scalable architecture for long-term maintainability.",
         <>
-          Developed <b>scaleward.ai</b> platform using <b>Next.js</b>, Tailwind
-          CSS, and <b>shadcn/ui</b>, delivering a modern and responsive user
-          experience.
+          Developed <b>app.webcentriq.com</b> platform using <b>Next.js</b>,
+          Tailwind CSS, and <b>shadcn/ui</b>, delivering a modern and responsive
+          user experience.
         </>,
         <>
           Implemented comprehensive end-to-end testing suite for Scaleward using{" "}
           <b>Playwright</b>, ensuring robust test coverage and improved code
           quality.
         </>,
+        <>
+          Built and maintained the <b>ProMom</b> consumer-facing web panel using{" "}
+          <b>Next.js 16</b>, <b>React 19</b>, <b>TypeScript</b>, and{" "}
+          <b>Tailwind CSS 4</b> within a large-scale monorepo, delivering
+          features across pregnancy and parenting platform modules.
+        </>,
+        <>
+          Developed reusable UI systems, feature-based architecture with{" "}
+          <b>TanStack Query</b> and <b>Zustand</b>, and centralized API service
+          layers with OpenAPI type generation.
+        </>,
+        <>
+          Contributed to the <b>NestJS</b> backend with <b>TypeORM</b>,{" "}
+          <b>PostgreSQL</b>, and <b>Redis/Bull</b> queue workers, implementing
+          REST APIs, database migrations, and Joi-validated DTOs.
+        </>,
+        <>
+          Collaborated on the <b>iOS</b> app built with <b>Swift</b>,{" "}
+          <b>UIKit</b>, and <b>SnapKit</b> following MVVM-C architecture,
+          ensuring feature parity across web and mobile platforms.
+        </>,
         "Optimized application performance through code splitting, lazy loading, and bundle optimization, improving load times significantly.",
-        "Led knowledge-sharing sessions on Cursor AI, modern development workflows, and front-end testing best practices with the development team.",
+        "Led knowledge-sharing sessions on AI tools, modern development workflows, and front-end testing best practices with the development team.",
       ],
     },
     {
@@ -289,9 +310,7 @@ const data = {
       website: "http://seraj.me/games/1250/",
       description: null,
       content: "1 to 50 game made with javascript",
-      attachments: {
-        photo: ["works/1250game/screen1.png"],
-      },
+      attachments: { photo: ["works/1250game/screen1.png"] },
       tags: ["Game Development", "javaScript"],
       tools: ["HTML - CSS", "ECMAScript 6", "javascript"],
     },
@@ -341,9 +360,7 @@ const data = {
       website: "https://bimebazar.ir/landing/t45",
       description: null,
       content: "طراحی و اجرای لندینگ پیج تعاونی ۴۵ بیمه بازار",
-      attachments: {
-        photo: ["works/bimebazar-t45/screen1.png"],
-      },
+      attachments: { photo: ["works/bimebazar-t45/screen1.png"] },
       tags: ["bimebazar", "UI", "Landing page", "UI Design"],
       tools: ["HTML5", "CSS3", "Photoshop", "Visual Studio Code"],
     },
@@ -411,9 +428,7 @@ const data = {
       website: "http://irppt.com",
       description: null,
       content: "کدنویسی و اجرای پروژه بر روی سیستم مدیریت محتوای وردپرس.",
-      attachments: {
-        photo: ["works/irppt/screen1.png"],
-      },
+      attachments: { photo: ["works/irppt/screen1.png"] },
       tags: [
         "واکنش گرا",
         "ریسپانسیو",
@@ -435,9 +450,7 @@ const data = {
       website: "",
       description: null,
       content: "طراحی تک صفحه ایی وبسایت فیمس.پروژه ی استارت آپی",
-      attachments: {
-        photo: ["works/famous/screen1.png"],
-      },
+      attachments: { photo: ["works/famous/screen1.png"] },
       tags: [
         "Wordpress",
         "User Interface",
@@ -460,9 +473,7 @@ const data = {
       description: null,
       content:
         "طراحی اینترفیس وبسایت اداره کل میراث فرهنگی , صنایع دستی گردشگری استان ایلام و انتقال کامل نسخه قدیمی وبسایت از جوملا به وردپرس.",
-      attachments: {
-        photo: ["works/ilamchto/screen1.png"],
-      },
+      attachments: { photo: ["works/ilamchto/screen1.png"] },
       tags: [
         "Wordpress theme",
         "UX Design",
